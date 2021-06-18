@@ -7,7 +7,10 @@ import { Component} from '@angular/core';
 })
 export class PersonaComponent {
 
-  constructor() { }
+  nombre: string = 'juan';
+  apellido: string = 'perez';
+  edad: number = 28;
+
 
 
 }
